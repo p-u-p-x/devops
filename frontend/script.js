@@ -2,7 +2,7 @@
 // REPLACE the placeholder below with your real EC2 public IP
 // after deployment, e.g.: http://54.123.45.67:3000
 // ============================================================
-const BACKEND_URL = 'http://EC2-PUBLIC-IP:3000';
+const BACKEND_URL = 'http://13.60.227.234:3000';
 
 const btn       = document.getElementById('callApiBtn');
 const resultBox = document.getElementById('result');
