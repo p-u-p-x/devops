@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Environment variables (never commit secrets)
+.env
+
+# Log files
+*.log
+logs/
+nohup.out

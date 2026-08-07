@@ -1,0 +1,28 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /home/ec2-user/demo-app
+
+permissions:
+  - object: /home/ec2-user/demo-app/scripts
+    mode: '755'
+    type:
+      - file
+
+hooks:
+  ApplicationStop:
+    - location: scripts/stop.sh
+      timeout: 30
+      runas: ec2-user
+
+  AfterInstall:
+    - location: scripts/install.sh
+      timeout: 120
+      runas: ec2-user
+
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 30
+      runas: ec2-user
