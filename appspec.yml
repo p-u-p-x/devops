@@ -6,9 +6,12 @@ files:
     destination: /home/ec2-user/demo-app
 
 permissions:
-  - object: /home/ec2-user/demo-app/scripts
+  - object: /home/ec2-user/demo-app
+    owner: ec2-user
+    group: ec2-user
     mode: '755'
     type:
+      - directory
       - file
 
 hooks:
