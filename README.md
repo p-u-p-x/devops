@@ -1,6 +1,6 @@
 # ☁️ PulseFit Analytics | AWS Cloud Infrastructure
 
-![AWS](https://img.shields.io/badge/AWS-FF9900) ![VPC](https://img.shields.io/badge/VPC-232F3E) ![EC2](https://img.shields.io/badge/EC2-FF9900) ![S3](https://img.shields.io/badge/S3-569A31) ![IAM](https://img.shields.io/badge/IAM-DD344C) ![CodeBuild](https://img.shields.io/badge/CodeBuild-527FFF)
+![AWS](https://img.shields.io/badge/AWS-FF9900) ![VPC](https://img.shields.io/badge/VPC-232F3E) ![EC2](https://img.shields.io/badge/EC2-FF1493) ![S3](https://img.shields.io/badge/S3-569A31) ![IAM](https://img.shields.io/badge/IAM-DD344C) ![CodeBuild](https://img.shields.io/badge/CodeBuild-527FFF)
 
 ---
 
